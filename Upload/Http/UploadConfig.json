@@ -1,0 +1,28 @@
+{
+    "url": "http://101.200.77.107:9876/scene/add",
+    "data": [{
+        "key": "sceneAssetNameUpdate",
+        "value": "1111" 
+    }, {
+        "key": "sceneName",
+        "value": "test"
+    }, {
+        "key": "sceneDescription",
+        "value": "no description"
+    }, {
+        "key": "width",
+        "value": "1"
+    }, {
+        "key": "height",
+        "value": "1"
+    }, {
+        "key": "scale",
+        "value": "10"
+    }],
+    "bytes": {
+        "picName": "scenePics",
+        "picPath": ["/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg","/Users/muyichun/Desktop/libai.jpg"],
+        "videoName": "",
+        "videoPath": []
+    }
+}
