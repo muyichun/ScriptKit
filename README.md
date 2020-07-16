@@ -1,4 +1,4 @@
-### Python/Sh 等模块
+### Python、Shell 模块
 
 * Crawl —— 模拟网页登陆
 * ProxyVisit —— 使用代理模拟不同ip访问网址
