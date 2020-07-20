@@ -1,0 +1,41 @@
+[
+    {
+        "id":"YXService",
+        "execute-command": "/root/webhook/webhook-linux-amd64/YXService/redeploy.sh",
+        "command-working-directory": "/root/webhook/webhook-linux-amd64/YXService",
+        "response-message": "Executing deploy script",
+        "trigger-rule":
+        {
+               "match":
+               {
+                   "type": "value",
+                   "value": "1q2w3e!@#",
+                    "parameter":
+                    {
+                        "source": "header",
+                        "name": "X-Gitee-Token"
+                    }
+               }
+        }
+
+    },
+    {
+        "id":"YXServiceManagement",
+        "execute-command": "/root/webhook/webhook-linux-amd64/YXServiceManagement/redeploy.sh",
+        "response-message": "Executing deploy script",
+        "command-working-directory": "/root/webhook/webhook-linux-amd64/YXServiceManagement",
+        "trigger-rule":
+        {
+            "match":
+             {
+                "type": "value",
+                "value": "1q2w3e!@#",
+                "parameter":
+                {
+                    "source": "header",
+                    "name": "X-Gitee-Token"
+                }
+             }
+        } 
+    }
+]
