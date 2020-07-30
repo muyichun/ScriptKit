@@ -37,5 +37,23 @@
                 }
              }
         } 
+    },
+    {
+        "id":"organ",
+        "execute-command": "/root/webhook/webhook-linux-amd64/organ/redeploy.sh",
+        "response-message": "Executing deploy script",
+        "command-working-directory": "/root/webhook/webhook-linux-amd64/organ",
+        "trigger-rule":
+        {
+            "match":
+            {
+                "type": "value",
+                "value": "1q2w3e!@#",
+                "parameter":
+                {
+                    "source": "header",
+                    "name": "X-Gitlab-Token"
+                }
+        }
     }
 ]
